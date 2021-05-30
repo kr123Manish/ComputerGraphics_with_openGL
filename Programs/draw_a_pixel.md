@@ -62,7 +62,7 @@ main()  #function call.
 ```
 - Final step is to make some user commands to move the pixel, close the window and auto movement of pixel.
 - To do so one can use pygame game pygame.event that take input event from user like keyboard input, mouse input.
-- Overall code looks like it
+- Overall code looks likes this.
 ```python
 import pygame
 from pygame.locals import *
