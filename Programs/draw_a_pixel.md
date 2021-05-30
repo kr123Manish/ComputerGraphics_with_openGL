@@ -26,11 +26,11 @@ def draw_pixel(x,y):
   ```
   - In the above program one should understand some functions used in the program.
 
-- glColor3fv() function is used for coloring the pixel in sky blue colour in can varry when you change its value.
+- ```glColor3fv()``` function is used for coloring the pixel in sky blue colour in can varry when you change its value.
 
 - gl stands for graphics library, Color stands for operation, 3fv means function will take three arguments that are floating point value.
 
-- Similarly, glVertex3fv() has its own meaning. It is used to draw vertex. In the program we pass vertex x,y as an parameter
+- Similarly, ```glVertex3fv()``` has its own meaning. It is used to draw vertex. In the program we pass vertex x,y as an parameter
 
 - It's time to step up the screen for this one can use and call the function.
 ``` python
@@ -102,4 +102,6 @@ def main():
 
 main()
 ```
+- You can also try for this by setting different x an y axis or make it custom by taking input from user.
+<img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/pixel3.PNG"></img>
 ## Experiment 1 completed.
