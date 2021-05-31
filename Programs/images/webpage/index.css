@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+#container{
+	height:auto;
+	width: auto;
+	background-image:url("milky-way-2695569_1920.jpg");
+	background-size: cover;
+	/*background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#v1{
+	margin-left:10rem;
+	margin-right:4rem;
+}
+video{
+	width:40rem;
+	align-content: center;
+}
+
