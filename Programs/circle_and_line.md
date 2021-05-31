@@ -107,4 +107,4 @@ r=float(input("Enter value of radius "))
 main()
 ```
 ## Completed :)
-<h3><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the video of all practicals</a></h3>
+<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the videos of all the practicals</a></h4>
