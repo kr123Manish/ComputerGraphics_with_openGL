@@ -130,6 +130,99 @@ main(A)
 ## Part2 for cube.
 - Here using out art skills to draw a rough diagram on paper with proper coordinates of points as shown below.
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/cube.jpg"></img>
+- In program your vertices will be in touple which looks like
+```python
+vertices = (
+	(0, 0, 0),	#Point 0
+	(2, 0, 0),	#Point 1
+	(2, 2, 0), 	#Point 2
+	(0, 2, 0),	#Point 3
+	(0, 2, 2),	#Point 4
+	(0, 0, 2),	#Point 5
+	(2, 0, 2), 	#Point 6
+	(2, 2, 2)	#Point 7
+	)
+```
+- Next we connect vertices, for this we create a edges touple.
+```python
+edges = (
+	(0, 1),	#This means connect Point 0 to Point 1.
+	(0, 3), #Similarly, other connections are to be made
+	(0, 5),	#according to the diagram of cube.
+	(1, 2),
+	(1, 6),
+	(2, 3),
+	(2, 7),
+	(3, 4),
+	(4, 5),
+	(5, 6), 
+	(6, 7), 
+	(7, 4)
+	)
+```
+- Now we are ready to make our cube. To do this we create a function.
+```python
+def cube():
+	glBegin(GL_LINES)
+	for edge in edges:
+		for vertex in edge:
+			glVertex3fv(vertices[vertex])
+	glEnd()
+```
+- From now all steps is almost same like triange.
+```python
+def main():
+	pygame.init()
+	display=(800,600)
+	pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+
+
+	gluPerspective(45, (display[0] / display[1]), 0.1,  50.0)
+
+	glTranslatef(0.0, 0.0, -10)
+
+	glRotatef(0, 0, 0, 0)
+
+	while True:
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				pygame.quit()
+				quit()
+		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+		cube()
+		glRotatef(1,4,1,1)
+		pygame.display.flip()
+		pygame.time.wait(10)
+main()
+```
+- Overall code is 
+```python
+def main():
+	pygame.init()
+	display=(800,600)
+	pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+
+
+	gluPerspective(45, (display[0] / display[1]), 0.1,  50.0)
+
+	glTranslatef(0.0, 0.0, -10)
+
+	glRotatef(0, 0, 0, 0)
+
+	while True:
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				pygame.quit()
+				quit()
+		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+		cube()
+		glRotatef(1,4,1,1)
+		pygame.display.flip()
+		pygame.time.wait(10)
+main()
+```
+### Completed :)
+### now we can try for quard color filling and make 3D model from user input.
 
 
 
