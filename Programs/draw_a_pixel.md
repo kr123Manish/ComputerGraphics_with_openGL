@@ -1,4 +1,3 @@
-# Experiment 1
 ## Aim: To make a pixel using openGL.
 ## Overview
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/pixel1.PNG"></img>
@@ -104,4 +103,4 @@ main()
 ```
 - You can also try for this by setting different x an y axis or make it custom by taking input from user.
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/pixel3.PNG"></img>
-## Experiment 1 completed.
+## Completed.
