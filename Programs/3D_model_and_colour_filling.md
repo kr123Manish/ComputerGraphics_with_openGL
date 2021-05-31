@@ -4,6 +4,7 @@
   <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/quardT.PNG" width=49%></img>
   <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/quard.PNG" width=49%></img>
 </p>
+
 - First import all necessary files.
 ``` python
 import pygame 
@@ -13,6 +14,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 ```
 - Now we are ready to make our triangel and cube using quards. To do this we create a function.
+
 ```python
 def draw_lines(A):
   //funtion_defination...
