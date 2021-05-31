@@ -126,6 +126,10 @@ a=[(-1,-1),(2,-1),
 A=tuple(a)
 main(A)
 ```
-## code for triangle is finished.
+### code for triangle is finished.
+## Part2 for cube.
+- Here using out art skills to draw a rough diagram on paper with proper coordinates of points as shown below.
+<img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/cube.jpg"></img>
+
 
 
