@@ -19,3 +19,25 @@ Interactive computer graphics work using the concept of two-way communication be
   </p>
 
 </ul>
+<h3>Some points to know before start.</h3>
+<h2>Concept of Pixel</h2>
+<p>The full form of the pixel is "Picture Element." It is also known as "PEL." Pixel is the smallest element of an image on a computer display, whether they are LCD or CRT monitors. A screen is made up of a matrix of thousands or millions of pixels. A pixel is represented with a dot or a square on a computer screen.</p>
+<img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/concept-of-pixel1.png"></img>
+<h4><li>Concept of Lines, Circles, Polynomial, Quard..</li></h4>
+<h4><li>Concept of Quard</li></h4>
+<h3>For better understanding follow this sequence to study the programs</h3>
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/draw_a_pixel.md">How To Make Pixel. </a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/circle_and_line.md">Create line and circle using pixel.</a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/2D_and_3D_Model.md">Create 2D and 3D model using lines.</a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/3D_model_and_colour_filling.md">Create 2D and 3D model using Quard and colour filling.</a>
+</li>
