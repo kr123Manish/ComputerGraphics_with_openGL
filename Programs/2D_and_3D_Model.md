@@ -64,9 +64,68 @@ def main():
 		# glRotatef(1,4,1,1)
 		pygame.display.flip()
 		pygame.time.wait(10)
-
-r=float(input("Enter value of radius "))  #taking radius as an input.
-main()
+#Here we create a touple for vertices of triangle.
+a=[(-1,-1),(2,-1), #coordinates of line AC
+   (-1,-1),(0.5,2), #coordinates of line AB
+   (2,-1),(0.5,2)]  #coordinates of line CB	
+A=tuple(a)
+main(A)
 ```
+- Final step is to make some user commands to move the pixel, close the window and auto movement of pixel.
+- To do so one can use pygame game pygame.event that take input event from user like keyboard input, mouse input.
+- Overall code looks likes this.
+```python
+import pygame
+from pygame.locals import *
+
+from OpenGL.GL import *
+from OpenGL.GLU import *
+
+def draw_lines(A):
+	glColor3f(0,1,2)
+	glBegin(GL_LINES)
+	#glBegin(GL_QUADS)
+
+	for i in A:
+		glVertex2f(i[0],i[1])
+	glEnd()
+
+
+def main(A):
+	pygame.init()
+	display=(800,600)
+	pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+
+
+	gluPerspective(45, (display[0] / display[1]), 0.1,  50.0)
+
+	glTranslatef(0.0, 0.0, -10)
+
+	glRotatef(0, 0, 0, 0)
+
+	while True:
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				pygame.quit()
+				quit()
+		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+		draw_lines(A)
+		# glRotatef(1,4,1,1)
+		pygame.display.flip()
+		pygame.time.wait(10)
+# below code is used for make polygon where coordinates are taken from user.
+# n=int(input("Enter value of n"))
+# a=[]
+# for i in range(0,n):
+# 	x=float(input("Enter x"))
+# 	y=float(input("Enter y"))
+# 	a.append((x,y))
+a=[(-1,-1),(2,-1),
+   (-1,-1),(0.5,2),
+   (2,-1),(0.5,2)]	
+A=tuple(a)
+main(A)
+```
+## code for triangle is finished.
 
 
