@@ -300,8 +300,8 @@ def main():
 main()
 ```
 ### Completed :)
-<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the video of all practicals</a></h4>
 ### If you have any suggestion you would be welcomed.
+<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the video of all practicals</a></h4>
 
 
 
