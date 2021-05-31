@@ -104,3 +104,4 @@ main()
 - You can also try for this by setting different x an y axis or make it custom by taking input from user.
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/pixel3.PNG"></img>
 ## Completed.
+<h3><a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/webpage/pixel.wmv">Click here to download vedio</a></h3>
