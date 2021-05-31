@@ -222,7 +222,8 @@ def main():
 main()
 ```
 ### Completed :)
-### now we can try for quard, color filling and make 3D model from user input.
+### In future we try for quard, color filling and make 3D model from user input...
+<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the videos of all practicals</a></h4>
 
 
 
