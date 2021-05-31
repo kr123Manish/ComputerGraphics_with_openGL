@@ -2,7 +2,7 @@
 ## Overview
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/circleline.PNG"></img>
 - First import all necessary files.
-``` 
+``` python
 import pygame 
 from pygame.locals import *
 
@@ -106,4 +106,4 @@ def main():
 r=float(input("Enter value of radius "))
 main()
 ```
-## Completed.
+## Completed :)
