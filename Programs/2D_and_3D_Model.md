@@ -222,7 +222,7 @@ def main():
 main()
 ```
 ### Completed :)
-### now we can try for quard color filling and make 3D model from user input.
+### now we can try for quard, color filling and make 3D model from user input.
 
 
 
