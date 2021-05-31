@@ -41,3 +41,4 @@ Interactive computer graphics work using the concept of two-way communication be
 <li>
 	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/3D_model_and_colour_filling.md">Create 2D and 3D model using Quard and colour filling.</a>
 </li>
+<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the videos of all practicals</a></h4>
