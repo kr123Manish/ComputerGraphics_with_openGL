@@ -197,6 +197,43 @@ main()
 ```
 - Overall code is 
 ```python
+import pygame
+from pygame.locals import *
+
+from OpenGL.GL import *
+from OpenGL.GLU import *
+
+vertices = (
+	(0, 0, 0),
+	(2, 0, 0),
+	(2, 2, 0), 
+	(0, 2, 0),
+	(0, 2, 2),
+	(0, 0, 2),
+	(2, 0, 2), 
+	(2, 2, 2)
+	)
+
+edges = (
+	(0, 1),
+	(0, 3), 
+	(0, 5),
+	(1, 2),
+	(1, 6),
+	(2, 3),
+	(2, 7),
+	(3, 4),
+	(4, 5),
+	(5, 6), 
+	(6, 7), 
+	(7, 4)
+	)
+def cube():
+	glBegin(GL_LINES)
+	for edge in edges:
+		for vertex in edge:
+			glVertex3fv(vertices[vertex])
+	glEnd()
 def main():
 	pygame.init()
 	display=(800,600)
