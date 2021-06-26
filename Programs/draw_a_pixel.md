@@ -105,3 +105,21 @@ main()
 <img src="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/pixel3.PNG"></img>
 ## Completed.
 <h3><a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/images/webpage/pixel.wmv">Click here to download video</a></h3>
+<h3>For better understanding follow this sequence to study the programs</h3>
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/draw_a_pixel.md">How To Make Pixel. </a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/circle_and_line.md">Create line and circle using pixel.</a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/2D_and_3D_Model.md">Create 2D and 3D model using lines.</a>
+</li>
+
+<li>
+	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/3D_model_and_colour_filling.md">Create 2D and 3D model using Quard and colour filling.</a>
+</li>
+<h4><a href="https://kr123manish.github.io/CG_video.github.io/">Click here to see the videos of all practicals</a></h4>
+
