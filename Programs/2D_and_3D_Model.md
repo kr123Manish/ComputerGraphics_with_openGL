@@ -259,7 +259,7 @@ def main():
 main()
 ```
 ### Completed :)
-### In future we try for quard, color filling and make 3D model from user input...
+##### In future we try for quard, color filling and make 3D model from user input...
 <h3>For better understanding follow this sequence to study the programs</h3>
 <li>
 	<a href="https://github.com/kr123Manish/ComputerGraphics_with_openGL/blob/main/Programs/draw_a_pixel.md">How To Make Pixel. </a>
